@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 12</title>
+    <style>
+        .body {
+            margin: 0auto;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px 100px;
+            justify-content: center;   
+        }
+
+        .header {
+            background-color:cornflowerblue;
+            padding: 15px;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        .title {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .contact {
+            background-color: tomato;
+            flex-basis: 30%;
+            height: 80vh;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+
+        .where {
+            background-color:bisque;
+            flex-basis: 40%;
+            height: 80vh;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+
+        .new {
+            background-color: darkseagreen;
+            flex-basis: 30%;
+            height: 80vh;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+
+        .footer {
+            background-color: cornflowerblue;
+            padding: 20px;
+            color: white;
+            display: grid;
+            grid-gap: 15px;
+        }
+
+        .paragraf {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
+        }
+
+        .footer {
+            background-color: goldenrod;
+            display: flex;
+            flex-direction: row;
+            padding: 15px;
+            justify-content: left;
+            margin-top: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3 class="title">Hip & Happenin' Headline</h3>
+    </div>
+    <div class="container">
+        <div class="contact">Contact</div>
+        <div class="where">Where It's At <p class="paragraf">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p></div>
+        <div class="new">News</div>
+    </div>
+    <footer>
+        <div class="footer">
+          <h3>the small print</h3>
+        </div>
+      </footer>    
+</body>
+</html>
